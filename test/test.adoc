@@ -1,0 +1,30 @@
+:doctype: book
+// this comment line is ignored
+
+= Document Title : subtitle
+Gleb S. Glazkov <https://github.com/mynameisglebushka>; Glebushka Sergeevich Glazkov <mail@google.com>
+:single-line: singl line attr
+= oioioi
+:soft-wrap: first soft wrap \
+second soft wrap
+:hard-wrap: first hard wrap + \
+second hard wrap
+
+The document body starts here +
+{single-line}
+
+{soft-wrap}
+
+{hard-wrap}
+
+[comment]
+It's Cooment
+qwe
+
+Not a comment
+
+[comment]
+--
+It's a comment
+--
+
